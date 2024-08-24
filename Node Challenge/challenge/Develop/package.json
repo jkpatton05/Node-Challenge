@@ -1,15 +1,28 @@
 {
-  "name": "static-site",
+  "name": "markdown-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "project will generate quality readme file",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Joshua Patton",
+  "license": "MIT",
   "dependencies": {
     "inquirer": "8.2.4"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkpatton05/Node-Challenge.git"
+  },
+  "keywords": [
+    "node",
+    "readme"
+  ],
+  "bugs": {
+    "url": "https://github.com/jkpatton05/Node-Challenge/issues"
+  },
+  "homepage": "https://github.com/jkpatton05/Node-Challenge#readme"
 }

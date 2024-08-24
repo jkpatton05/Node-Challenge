@@ -16,13 +16,15 @@ function generateMarkdown(data) {
   `;
 }
 function generateReadme(data) {
-  projectTitle,
+  const {
+    projectTitle,
     description,
     installation,
     usage,
     license,
     contributing = "",
-    license = "",
     authors = "",
     aknowledgements = "",
+  } = data;
+}
 export default generateMarkdown;
